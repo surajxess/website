@@ -59,3 +59,18 @@ body {
     background-position: center center;
     background-size: cover;
   }
+
+  table caption {
+    padding: .5em 0;
+  }
+  
+  table.dataTable th,
+  table.dataTable td {
+    white-space: nowrap;
+  }
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
