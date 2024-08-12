@@ -66,21 +66,21 @@ include 'header.php';
   <!-- Card Carousel Starts -->
   <div class="row mt-5">
     <div class="col-md-10 d-flex p-2 justify-content-center">
-        <div class="card nav-card card-1 me-2">
-          <div class="card-body d-flex justify-content-center align-items-end">
-              <p>Analog Watches</p>
-          </div>
+      <div class="card nav-card card-1 me-2">
+        <div class="card-body d-flex justify-content-center align-items-end">
+          <p>Analog Watches</p>
         </div>
-        <div class="card nav-card card-2 me-2 ">
-          <div class="card-body d-flex justify-content-center align-items-end">
-              <p>Smart Watches</p>
-          </div>
+      </div>
+      <div class="card nav-card card-2 me-2 ">
+        <div class="card-body d-flex justify-content-center align-items-end">
+          <p>Smart Watches</p>
         </div>
-        <div class="card nav-card card-3">
-          <div class="card-body d-flex justify-content-center align-items-end ">
-              <p>Hearables</p>
-          </div>
+      </div>
+      <div class="card nav-card card-3">
+        <div class="card-body d-flex justify-content-center align-items-end ">
+          <p>Hearables</p>
         </div>
+      </div>
     </div>
     <div class="col-md-2">
       <div class="rotate">
@@ -94,11 +94,13 @@ include 'header.php';
 
 
   <!-- Axio Banner Starts -->
-   <div class="container mt-5 mb-5">
+  <div class="container mt-5 mb-5">
     <div class="row">
-      <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5cfbd4fe/images/homepage/desktop/emi_section_d.jpg" alt="">
+      <img
+        src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5cfbd4fe/images/homepage/desktop/emi_section_d.jpg"
+        alt="">
     </div>
-   </div>
+  </div>
   <!-- Axio Banner Ends -->
 
   <marquee style="background-color:black; color:white;" behavior="" direction="right">SALE</marquee>
@@ -107,6 +109,79 @@ include 'header.php';
     <h1>TRENDING</h1>
   </div>
 
+  <!-- Trending Section Starts -->
+  <section>
+    <div id="cCarousel">
+      <div class="arrow" id="prev"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="arrow" id="next"><i class="fa-solid fa-chevron-right"></i></div>
+
+      <div id="carousel-vp">
+        <div id="cCarousel-inner">
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 1 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 2 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 3 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 4 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 5 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+
+          <article class="cCarousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              alt="Moon">
+            <div class="infos">
+              <h3>Title 6 / 6</h3>
+              <button type="button">See</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Trending Section Ends -->
 
 
 </div>
