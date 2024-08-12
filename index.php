@@ -63,7 +63,7 @@ include 'header.php';
     </button>
   </div>
 
-  <!-- Card Carousel -->
+  <!-- Card Carousel Starts -->
   <div class="row mt-5">
     <div class="col-md-10 d-flex p-2 justify-content-center">
         <div class="card nav-card card-1 me-2">
@@ -89,6 +89,22 @@ include 'header.php';
       </div>
 
     </div>
+  </div>
+  <!-- Card Carousel Ends -->
+
+
+  <!-- Axio Banner Starts -->
+   <div class="container mt-5 mb-5">
+    <div class="row">
+      <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5cfbd4fe/images/homepage/desktop/emi_section_d.jpg" alt="">
+    </div>
+   </div>
+  <!-- Axio Banner Ends -->
+
+  <marquee style="background-color:black; color:white;" behavior="" direction="right">SALE</marquee>
+
+  <div class="container">
+    <h1>TRENDING</h1>
   </div>
 
 
